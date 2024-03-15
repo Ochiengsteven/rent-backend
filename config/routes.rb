@@ -9,5 +9,9 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
 
-  resources :houses
+  resources :houses do
+    resource :favorites, only: [:create, :destroy]
+  end
+
+  get '/favorites', to: 'favorites#index', as: :favorites
 end
