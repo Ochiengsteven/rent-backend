@@ -27,3 +27,19 @@ Headers:
 ```makefile
 Authorization: Bearer <token>
 ```
+### Response
+
+```json
+[
+  {
+    "id": 2,
+    "title": "Bungalow",
+    "description": "This is a spacious house.",
+    "photo": "https://bit.ly/4aePcW7",
+    "user_id": 2,
+    "created_at": "2024-03-15T09:55:50.652Z",
+    "updated_at": "2024-03-15T09:55:50.652Z"
+  }
+]
+```
+
