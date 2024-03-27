@@ -26,8 +26,11 @@ class HousesController < ApplicationController
 
   # DELETE /houses/1
   def destroy
-    @house.destroy
-    head :no_content
+    if @house.destroy
+      head :no_content
+    else
+      render json: @house.errors, status: :unprocessable_entity
+    end
   end
 
   private
