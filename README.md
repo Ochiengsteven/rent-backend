@@ -72,8 +72,11 @@ This the backend code for the application where one can create house, add houses
 - **[Authenticated Users can add  houses as  favorites ]**
 
 ## API Documentation<a name="api-docs"></a>
+**Here is the API documentation of the project**
 
-- Here is the API documentation of the project []
+- #### [Users](https://github.com/Ochiengsteven/rent-backend/blob/dev/documentation/User_API_documentation.md)
+- #### [Houses](https://github.com/Ochiengsteven/rent-backend/blob/dev/documentation/Houses_API_documentation.md)
+- #### [Favorites](https://github.com/Ochiengsteven/rent-backend/blob/dev/documentation/Favorites_API_documentation.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
