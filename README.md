@@ -141,7 +141,7 @@ rails db:seed
 To run the project, execute the following command:
 
 ```sh
-   rails s -p 3000 # # for serving the API on localhost:3001
+   rails s -p 3001 # # for serving the API on localhost:3001
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
